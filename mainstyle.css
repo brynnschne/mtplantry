@@ -1,0 +1,24 @@
+body {
+  background-color: #ccd19f;
+  color: #423705;
+}
+.asciiArea {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  align-items: center;
+}
+.navList {
+  display: flex;
+  list-style-type: none;
+  font-family: Helvetica;
+  justify-content: center;
+  padding: 0;
+}
+.navItem {
+  padding-inline: 5px;
+}
+a:hover {
+  color: #bc452f;
+}
